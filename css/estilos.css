@@ -408,12 +408,12 @@ h4 {
     padding: 10px;
   }
 }
-
 /* MEDIA QUERY = DISPOSITIVOS CHICOS */
 /* Dispositivos hasta 425 */
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   /* Media Query sección Index */
+  /* Media Query sección Index- Header */
   ul {
     font-size: 0.8rem;
   }
@@ -461,7 +461,7 @@ h4 {
     padding-bottom: 15px;
   }
 
-  /* Media Query sección Index-FOOTER */
+  /* Media Query sección Index-Footer */
   .footer-content p {
     font-size: 0.6rem;
   }
@@ -510,6 +510,6 @@ h4 {
     font-size: 2rem;
   }
   h4 {
-    margin: 12px;
+    margin: 15px;
   }
 }
