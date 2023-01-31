@@ -351,7 +351,64 @@ h4{
     padding: 20px;
 }
 
+/* MEDIA QUERY = DISPOSITIVOS MEDIANOS */
+/* Dispositivos hasta 768px */
 
+@media (max-width: 768px){
+    
+/* Media Query sección Index */
+        ul{
+        font-size: 1rem;
+        }
+        h1{
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        h3{
+            font-size: 2rem;
+            margin: 5px;
+        }
+        h4{
+            font-size: 1rem;
+        }
+        .subtitulo{
+            margin: 10px;
+        }
+        p{
+            font-size: 13px;
+        }
+        .main-grid-pexterior{
+            padding-top: 10px;
+        }
+        .main-grid-pinterior{
+            padding-top: 10px;
+        }
+    
+/* Media Query sección Models */
+        ul{
+        font-size: 1rem;
+        }
+        .models-grid-pvgen p{
+            font-size: 0.7rem;
+        }
+        .models-grid-pexterior p{
+            font-size: 0.7rem;
+        }
+        .models-grid-pinterior p{
+            font-size: 0.7rem;
+        }
+        .models-grid-pvgen{
+            padding: 10px;
+        }
+        .models-grid-pexterior{
+            padding: 10px;
+        }
+        .models-grid-pinterior{
+            padding: 10px;
+        }
+    }
 
   
 
