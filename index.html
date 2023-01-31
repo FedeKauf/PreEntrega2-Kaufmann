@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/estilos.css" />
     <title>Lamborghini</title>
     <link rel="shortcut icon" href="images/faviconlambo.png" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+    />
   </head>
   <body>
     <!-- ENCABEZADO -->
@@ -39,7 +46,7 @@
       <h1>WELCOME TO LAMBORGHINI</h1>
       <h2 class="subtitulo">NEW MODELS</h2>
       <section class="index-main-grid">
-        <h3 class="titulos-h3">LAMBORGHINI STERRATO</h3>
+        <h3 class="titulos-h3 wow animate__animated animate__lightSpeedInLeft">LAMBORGHINI STERRATO</h3>
         <div class="main-grid-video">
           <video
             src="./videos/Huracán Sterrato beyond the concrete_1080p.mp4"
@@ -79,7 +86,7 @@
         </div>
       </section>
       <section class="index-main-grid">
-        <h3 class="titulos-h3">LAMBORGHINI HURACAN TECNICA</h3>
+        <h3 class="titulos-h3 wow animate__animated animate__lightSpeedInLeft">LAMBORGHINI HURACAN TECNICA</h3>
         <div class="main-grid-video">
           <video
             src="./videos/Lamborghini Huracán Tecnica 1080p.mp4"
@@ -141,4 +148,8 @@
       >
     </footer>
   </body>
+  <script src="./js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </html>
